@@ -1,0 +1,22 @@
+{
+  "name": "simple_swap",
+  "module": "server.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11"
+  },
+  "scripts": {
+    "start": "bun run server.ts -w"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
